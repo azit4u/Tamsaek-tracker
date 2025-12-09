@@ -1,12 +1,13 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "1.1",
+    "version": "1.2",
     "slug": "Tamsaek-tracker",
-    "author": "azit4u",
+    "author": "Tamsaek",
+    "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
-    "download_url": "",
-	"sections": {
-        "description": "유입 경로 추적 플러그인 버전 1.1 업데이트입니다. (UI 개선 및 로직 보완)",
-        "changelog": "<h4>1.1 변경 사항</h4><ul><li>유입 경로 디자인 개선 (박스 및 줄바꿈 적용)</li><li>키워드/인앱 접속 분리 출력 오류 수정</li></ul>"
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v1.2/Tamsaek-tracker.zip",
+    "sections": {
+        "description": "유입 경로 추적 플러그인 버전 1.2 업데이트입니다. 핵심 데이터베이스 구조를 변경하고 관리자 메뉴명을 수정했습니다.",
+        "changelog": "<h4>1.2 주요 변경 사항</h4><ul><li>데이터베이스 테이블명 변경 (wp_referrer_stats -> wp_tamsaek_referrer) 및 마이그레이션 로직 적용.</li><li>관리자 최상위 메뉴명 'Tamsaek 유입 통계'를 '탐색 유입 통계'로 변경.</li><li>유입 경로 목록 UI 대폭 개선 (키워드 박스, 기기 타입 표시, 줄바꿈 정렬).</li><li>관리자 글 목록에 조회수 컬럼 표시 기능 추가.</li></ul>"
     }
 }
