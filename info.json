@@ -1,21 +1,23 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "1.3",
+    "version": "1.4",
     "slug": "Tamsaek-tracker",
     "author": "Tamsaek",
     "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
-    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v1.3/Tamsaek-tracker.zip",
-        "icons": {
-        "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png"
+    
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v1.4/Tamsaek-tracker.zip",
+    
+    "icons": {
+        "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
+        "256x256": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png" 
     },
     
     "tested": "6.9", 
-    "requires": "6.0",
+    "requires": "6.0", 
     
     "sections": {
-	"description": "유입 경로 추적 플러그인 탐색 v1.3",
-        "changelog": "<h4>1.3 주요 변경 사항 (최종)</h4><ul><li>[UI 개선] 플러그인 상세 정보에 아이콘 이미지가 추가되었습니다.</li><li>[호환성] 워드프레스 6.9 버전과의 호환성을 명시했습니다.</li><li>[마이그레이션] 데이터베이스 테이블명 변경 로직 안정화 (wp_referrer_stats -> wp_tamsaek_referrer).</li><li>[성능] 업데이트 로직의 대소문자 문제 해결 및 안정성 강화.</li></ul>"
+        "description": "유입 경로 추적 플러그인 탐색 v1.4",
+        "changelog": "<h4>1.4 주요 변경 사항 (최종 안정화)</h4><ul><li>[자동 마이그레이션] 플러그인 업데이트 시 데이터베이스 테이블명(wp_referrer_stats → wp_tamsaek_referrer)을 수동 비활성화/활성화 없이 자동으로 변경하도록 로직을 개선했습니다.</li><li>[안정성] 모든 로깅 및 통계 조회 파일에서 새로운 테이블명을 일관되게 참조하도록 통일했습니다.</li><li>[업데이트 안정화] GitHub 업데이트 로직의 대소문자 이슈를 해결하여 업데이트 안정성을 높였습니다.</li><li>[UI/호환성] 플러그인 상세 정보에 아이콘 이미지 및 워드프레스 6.9 호환성 정보가 추가되었습니다.</li></ul>"
     }
 }
-
