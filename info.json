@@ -1,12 +1,12 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "1.4",
+    "version": "1.5",
     "slug": "Tamsaek-tracker",
     "author": "Tamsaek",
     "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
     
-    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v1.4/Tamsaek-tracker.zip",
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v1.5/Tamsaek-tracker.zip",
     
     "icons": {
         "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
@@ -17,7 +17,7 @@
     "requires": "6.0", 
     
     "sections": {
-        "description": "유입 경로 추적 플러그인 탐색 v1.4",
-        "changelog": "<h4>1.4 주요 변경 사항 (최종 안정화)</h4><ul><li>[자동 마이그레이션] 플러그인 업데이트 시 데이터베이스 테이블명(wp_referrer_stats → wp_tamsaek_referrer)을 수동 비활성화/활성화 없이 자동으로 변경하도록 로직을 개선했습니다.</li><li>[안정성] 모든 로깅 및 통계 조회 파일에서 새로운 테이블명을 일관되게 참조하도록 통일했습니다.</li><li>[업데이트 안정화] GitHub 업데이트 로직의 대소문자 이슈를 해결하여 업데이트 안정성을 높였습니다.</li><li>[UI/호환성] 플러그인 상세 정보에 아이콘 이미지 및 워드프레스 6.9 호환성 정보가 추가되었습니다.</li></ul>"
+        "description": "유입 경로 추적 플러그인 탐색 v1.5 (데이터 완전 한글화)",
+        "changelog": "<h4>1.5 데이터 안정화 및 마이그레이션</h4><ul><li>[데이터 백업] 업데이트 시 만약을 대비해 기존 테이블을 자동으로 백업(wp_tamsaek_referrer_backup_YYYYMMDD)하는 안전장치를 추가했습니다.</li><li>[기존 데이터 통일] DB에 인코딩된 상태(%EC...)로 저장되어 있던 기존 로그들을 분석하여 깨끗한 한글로 일괄 변환(마이그레이션)합니다.</li><li>[수집 로직 강화] 이중 인코딩이나 보안 모듈에 의해 변형된 문자열({hash})까지 완벽하게 한글로 복구하여 저장하도록 강력한 디코딩 로직을 적용했습니다.</li><li>[통계 정확도] 키워드 저장 방식이 한글로 통일됨에 따라 통계 집계의 정확도가 대폭 향상되었습니다.</li></ul>"
     }
 }
