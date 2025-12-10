@@ -10,7 +10,7 @@
     
     "icons": {
         "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
-        "256x256": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png" 
+        "256x256": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png" ,
     },
     
     "tested": "6.9", 
