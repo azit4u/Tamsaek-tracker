@@ -1,23 +1,23 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "1.5",
+    "version": "2.0",
     "slug": "Tamsaek-tracker",
     "author": "Tamsaek",
     "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
     
-    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v1.5/Tamsaek-tracker.zip",
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v2.0/Tamsaek-tracker.zip",
     
     "icons": {
         "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
-        "256x256": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png" ,
+        "256x256": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png"
     },
     
-    "tested": "6.9", 
+    "tested": "6.7", 
     "requires": "6.0", 
     
     "sections": {
-        "description": "유입 경로 추적 플러그인 탐색 v1.5 (데이터 완전 한글화)",
-        "changelog": "<h4>1.5 데이터 안정화 및 마이그레이션</h4><ul><li>[데이터 백업] 업데이트 시 만약을 대비해 기존 테이블을 자동으로 백업(wp_tamsaek_referrer_backup_YYYYMMDD)하는 안전장치를 추가했습니다.</li><li>[기존 데이터 통일] DB에 인코딩된 상태(%EC...)로 저장되어 있던 기존 로그들을 분석하여 깨끗한 한글로 일괄 변환(마이그레이션)합니다.</li><li>[수집 로직 강화] 이중 인코딩이나 보안 모듈에 의해 변형된 문자열({hash})까지 완벽하게 한글로 복구하여 저장하도록 강력한 디코딩 로직을 적용했습니다.</li><li>[통계 정확도] 키워드 저장 방식이 한글로 통일됨에 따라 통계 집계의 정확도가 대폭 향상되었습니다.</li></ul>"
+        "description": "유입 경로 추적 플러그인 탐색 v2.0 (상세 분석 기능 강화)",
+        "changelog": "<h4>2.0 상세 분석 기능 강화</h4><ul><li>[상세 페이지 개편] 게시글 상세 통계 화면에 탭(Tab) 기능을 도입하여 '상세 유입 로그'와 '유입 키워드'를 분리했습니다.</li><li>[키워드 분석] 특정 글에 유입된 검색어만 모아서 볼 수 있는 전용 뷰와 '더보기' 기능을 추가했습니다.</li><li>[UI 개선] 날짜 선택 UI(Flatpickr) 적용 및 모바일 반응형 디자인을 개선했습니다.</li><li>[성능 최적화] 상세 키워드 데이터를 AJAX 비동기 방식으로 호출하여 페이지 로딩 속도를 높였습니다.</li></ul>"
     }
 }
