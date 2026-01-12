@@ -1,12 +1,12 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "3.1",
+    "version": "3.2",
     "slug": "Tamsaek-tracker",
     "author": "Tamsaek",
     "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
     
-    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v3.1/Tamsaek-tracker.zip",
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v3.2/Tamsaek-tracker.zip",
     
     "icons": {
         "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
@@ -17,7 +17,7 @@
     "requires": "6.0", 
     
     "sections": {
-        "description": "유입 경로 추적 플러그인 탐색 v3.1 (기능 추가: 외부 링크 추적 및 상세 유입 분석 탭 신설)",
-        "changelog": "<h4>3.1 업데이트</h4><ul><li>[New] 외부 링크(Outbound Link) 클릭 추적 및 통계 기능 추가</li><li>[New] 상세 통계 페이지에 '유입 사이트(Referrer Sites)' 분석 탭 추가</li><li>[UX] 관리자 상단 바(Admin Bar)에 Today/Total 실시간 통계 표시 디자인 강화</li><li>[Mobile] 태블릿 및 모바일(1100px 이하) 환경에서 관리자 목록 UI 및 정렬 기능 개선</li></ul><h4>3.0 메이저 업데이트</h4><ul><li>[코드 경량화] 불필요한 구버전 마이그레이션 코드를 제거하여 플러그인을 경량화했습니다.</li><li>[UX 개선] 관리자 목록 정렬 시, 첫 클릭부터 '내림차순(높은 순)'으로 정렬되도록 변경했습니다.</li><li>[스팸 필터] 의미 없는 검색어 유입 시 직접 접속으로 처리하도록 필터링을 강화했습니다.</li></ul>"
+        "description": "유입 경로 추적 플러그인 탐색 v3.2 (CSS 최적화 및 UI/UX 개선 업데이트)",
+        "changelog": "<h4>3.2 업데이트</h4><ul><li>[UI/UX] 클릭 로그(Outbound Logs) 페이지 디자인 개선 (링크 가독성 향상, 통계 버튼 스타일 통일)</li><li>[Code] 관리자 CSS 스타일시트 전면 리팩토링 및 중복 코드 제거 (로딩 최적화)</li><li>[Fix] 모바일 환경에서 날짜 표시 중복 오류 수정 및 반응형 레이아웃 개선</li></ul><h4>3.1 업데이트</h4><ul><li>[New] 외부 링크(Outbound Link) 클릭 추적 및 통계 기능 추가</li><li>[New] 상세 통계 페이지에 '유입 사이트(Referrer Sites)' 분석 탭 추가</li><li>[UX] 관리자 상단 바(Admin Bar)에 Today/Total 실시간 통계 표시 디자인 강화</li></ul>"
     }
 }
