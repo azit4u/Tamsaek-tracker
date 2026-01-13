@@ -1,12 +1,12 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "3.2",
+    "version": "3.3",
     "slug": "Tamsaek-tracker",
     "author": "Tamsaek",
     "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
     
-    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v3.2/Tamsaek-tracker.zip",
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v3.3/Tamsaek-tracker.zip",
     
     "icons": {
         "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
@@ -17,7 +17,7 @@
     "requires": "6.0", 
     
     "sections": {
-        "description": "유입 경로 추적 플러그인 탐색 v3.2 (CSS 최적화 및 UI/UX 개선 업데이트)",
-        "changelog": "<h4>3.2 업데이트</h4><ul><li>[UI/UX] 클릭 로그(Outbound Logs) 페이지 디자인 개선 (링크 가독성 향상, 통계 버튼 스타일 통일)</li><li>[Code] 관리자 CSS 스타일시트 전면 리팩토링 및 중복 코드 제거 (로딩 최적화)</li><li>[Fix] 모바일 환경에서 날짜 표시 중복 오류 수정 및 반응형 레이아웃 개선</li></ul><h4>3.1 업데이트</h4><ul><li>[New] 외부 링크(Outbound Link) 클릭 추적 및 통계 기능 추가</li><li>[New] 상세 통계 페이지에 '유입 사이트(Referrer Sites)' 분석 탭 추가</li><li>[UX] 관리자 상단 바(Admin Bar)에 Today/Total 실시간 통계 표시 디자인 강화</li></ul>"
+        "description": "유입 경로 추적 플러그인 탐색 v3.3 (내부 링크 추적 및 관리자 통계 컬럼 고도화)",
+        "changelog": "<h4>3.3 업데이트</h4><ul><li>[New] 내부 링크(Internal Link) 클릭 및 리퍼러 추적 기능 추가 (내부 이동도 로그 저장)</li><li>[New] 관리자 글 목록에 '탐색 클릭' 컬럼 추가 및 정렬(Today/All) 지원</li><li>[UX] 관리자 상단 바 및 모바일 통계 표시 개선 (조회수/클릭수 구분 V/C 표기)</li><li>[Fix] 목차(TOC) 및 페이지 내 앵커(#) 이동 시 로그가 중복 저장되던 문제 해결</li><li>[Fix] 한글 URL이 포함된 링크 클릭 시 디코딩 처리 강화</li></ul><h4>3.2 업데이트</h4><ul><li>[UI/UX] 클릭 로그(Outbound Logs) 페이지 디자인 개선 (링크 가독성 향상, 통계 버튼 스타일 통일)</li><li>[Code] 관리자 CSS 스타일시트 전면 리팩토링 및 중복 코드 제거 (로딩 최적화)</li><li>[Fix] 모바일 환경에서 날짜 표시 중복 오류 수정 및 반응형 레이아웃 개선</li></ul>"
     }
 }
