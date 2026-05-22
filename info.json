@@ -1,12 +1,12 @@
 {
     "name": "Tamsaek Referrer Tracker",
-    "version": "3.7",
+    "version": "3.8",
     "slug": "Tamsaek-tracker",
     "author": "Tamsaek",
     "author_profile": "https://github.com/azit4u",
     "homepage": "https://github.com/azit4u/Tamsaek-tracker",
     
-    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v3.7/Tamsaek-tracker.zip",
+    "download_url": "https://github.com/azit4u/Tamsaek-tracker/releases/download/v3.8/Tamsaek-tracker.zip",
     
     "icons": {
         "512x512": "https://raw.githubusercontent.com/azit4u/Tamsaek-tracker/main/assets/tamsaek.png",
@@ -17,7 +17,7 @@
     "requires": "6.0", 
     
     "sections": {
-        "description": "유입 경로 추적 플러그인 탐색 v3.7 (소셜 플랫폼 오탐지 패치 및 안정성 최적화)",
-        "changelog": "<h4>3.7 업데이트</h4><ul><li>[Fix] 소셜 플랫폼(X/트위터, 유튜브, 텔레그램) 유입 오탐지 문제를 완전히 해결했습니다.</li><li>[Fix] 일반 웹사이트 도메인(예: modoopost.com) 내에 트위터 단축 주소(t.co)나 x.com, t.me 등의 특정 알파벳 파편이 포함되어 있을 때 SNS 유입으로 오인하여 분류하던 로직을 엄격한 URL 구조 매칭 방식으로 대폭 개선했습니다.</li></ul><h4>3.5 업데이트</h4><ul><li>[Change] 내부 유입(Internal Referrer) 로그 저장 차단 (도메인이 같으면 유입 경로에 저장하지 않음)</li><li>[Change] 내부 링크(Internal Link) 클릭 추적 제외 (외부로 나가는 아웃바운드 링크만 기록하도록 변경)</li><li>[Optimization] 불필요한 내부 이동 로그 적재 방지로 DB 용량 절약 및 성능 최적화</li></ul><h4>3.3 업데이트</h4><ul><li>[New] 관리자 글 목록에 '탐색 클릭' 컬럼 추가 및 정렬(Today/All) 지원</li><li>[UX] 관리자 상단 바 및 모바일 통계 표시 개선 (조회수/클릭수 구분 V/C 표기)</li><li>[Fix] 목차(TOC) 및 페이지 내 앵커(#) 이동 시 로그가 중복 저장되던 문제 해결</li><li>[Fix] 한글 URL이 포함된 링크 클릭 시 디코딩 처리 강화</li></ul>"
+        "description": "유입 경로 추적 플러그인 탐색 v3.8 (소셜 플랫폼 오탐지 패치 및 안정성 최적화)",
+        "changelog": "<h4>3.8 업데이트</h4><ul><li>[Fix] 소셜 플랫폼(X/트위터, 유튜브, 텔레그램) 유입 오탐지 문제를 완전히 해결했습니다.</li><li>[Fix] 일반 웹사이트 도메인(예: modoopost.com) 내에 트위터 단축 주소(t.co)나 x.com, t.me 등의 특정 알파벳 파편이 포함되어 있을 때 SNS 유입으로 오인하여 분류하던 로직을 엄격한 URL 구조 매칭 방식으로 대폭 개선했습니다.</li></ul><h4>3.5 업데이트</h4><ul><li>[Change] 내부 유입(Internal Referrer) 로그 저장 차단 (도메인이 같으면 유입 경로에 저장하지 않음)</li><li>[Change] 내부 링크(Internal Link) 클릭 추적 제외 (외부로 나가는 아웃바운드 링크만 기록하도록 변경)</li><li>[Optimization] 불필요한 내부 이동 로그 적재 방지로 DB 용량 절약 및 성능 최적화</li></ul><h4>3.3 업데이트</h4><ul><li>[New] 관리자 글 목록에 '탐색 클릭' 컬럼 추가 및 정렬(Today/All) 지원</li><li>[UX] 관리자 상단 바 및 모바일 통계 표시 개선 (조회수/클릭수 구분 V/C 표기)</li><li>[Fix] 목차(TOC) 및 페이지 내 앵커(#) 이동 시 로그가 중복 저장되던 문제 해결</li><li>[Fix] 한글 URL이 포함된 링크 클릭 시 디코딩 처리 강화</li></ul>"
     }
 }
